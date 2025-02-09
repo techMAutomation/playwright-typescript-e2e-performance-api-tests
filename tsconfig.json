@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": ["ESNext", "DOM"], // above one and this one ensures full async support
+        "moduleResolution": "node",
+        "module": "CommonJS",  
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true
+    },
+    "include":  ["**/*.ts", "playwright.config.ts"]
+}
